@@ -1,0 +1,18 @@
+<div class="box" *ngFor="let MZt of HotArr">
+	  <div class="mz1">
+			<div class="jpg">
+				 <img src="{{MZt.cover.origin}}" alt="" />
+			</div>
+			 <div class="cont">
+			 	<div class="jieshao">
+			 		    <span >{{MZt.name}}</span><br />
+			  	    <span class="spone">{{MZt.cinemaCount}}家电影上映{{MZt.scheduleCount}}人购票</span>
+			 	</div>
+				<div class="pingfen">{{MZt.grade}}</div>
+			 </div>
+		</div>
+</div>
+
+<div class="btn">更多热映电影</div>
+<p class="jjsy">即将上映</p>
+<hr style="margin: 30px auto; / ">

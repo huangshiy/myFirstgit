@@ -1,0 +1,38 @@
+.box3{
+	width: 90%;
+	border: 1px solid red;
+	margin: 0 auto;
+	margin-top: 20px;
+	background: white;
+}
+.jpg3{
+	width: 100%;
+	height: 200px;
+}
+.jpg3 img{
+	width: 100%;
+	height: 200px;
+}
+.cont3{
+	display: flex;
+	
+}
+.NZ{
+	flex: 6;
+	margin-left: 10px;
+}
+.NR{
+	flex: 4;
+	color: deeppink;
+}
+.bat{
+	margin: 20px auto;
+	width: 40%;
+	height: 40px;
+	line-height: 40px;
+	text-align: center;
+	border: 1px solid red;
+	border-radius: 20px;
+}   
+
+

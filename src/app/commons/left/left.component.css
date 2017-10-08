@@ -1,0 +1,19 @@
+.mz_left_menu{position: fixed; overflow:hidden; top:50px; bottom:0px; left:0px;right:30%;z-index: 22; background: #282828;color:#fff;}
+
+.leftnavouter{position:fixed;top:50px;left:0;right:0;bottom:0;background: rgba(0,0,0,0);z-index: 23;}
+.leftnavouter .mz_left_menu ul li{
+	display: flex;
+	border-bottom: 1px solid gray;
+	justify-content: space-between;
+	white-space:nowrap;
+	
+}
+.leftnavouter .mz_left_menu ul li span{
+	margin-left: 20px;
+	margin-right: 20px;
+	height: 50px ;
+	text-align: center;
+	line-height: 50px;
+	
+	
+}
